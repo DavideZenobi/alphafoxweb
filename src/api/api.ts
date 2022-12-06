@@ -2,7 +2,7 @@
 
 export const getAllPlaces = (): Promise<any> => {
 
-    return fetch(`http://localhost:8080/api/place/`)
+    return fetch(`https://wowguessr.herokuapp.com/api/place/`)
     .then(function(response) {
         if (response.ok) {
             return response.json();
@@ -17,7 +17,7 @@ export const getAllPlaces = (): Promise<any> => {
 
 export const getPlaceById = (id: string): Promise<any> => {
 
-    return fetch(`http://localhost:8080/api/place/${encodeURIComponent(id)}`)
+    return fetch(`https://wowguessr.herokuapp.com/api/place/${encodeURIComponent(id)}`)
     .then(function(response) {
         if (response.ok) {
             return response.json();
@@ -32,7 +32,7 @@ export const getPlaceById = (id: string): Promise<any> => {
 
 export const getImagesByPlaceId = (placeId: string): Promise<any> => {
 
-    return fetch(`http://localhost:8080/api/image/${encodeURIComponent(placeId)}`)
+    return fetch(`https://wowguessr.herokuapp.com/api/image/${encodeURIComponent(placeId)}`)
     .then(function(response) {
         if (response.ok) {
             return response.json();

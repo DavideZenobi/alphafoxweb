@@ -1,5 +1,5 @@
 export const urls = {
 
-    "places" : "http://localhost:8080/images/places/",
+    "places" : "https://wowguessr.herokuapp.com/api/static/images/places/",
 
 };
