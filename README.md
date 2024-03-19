@@ -1,46 +1,15 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# WoWGuessr (2022)
+<br></br>
+> [!CAUTION]
+> **_Can't play anymore_**
+> 
+WoWGuessr is a website that consists of guessing the locations of the game World of Warcraft. Each place contains 5 images from most difficult to easiest.
+<br></br>
+This has been my first personal project after finishing the web application development course.
+<br></br>
+Front: React  
+Back: Spring Boot
+<br></br>
+![lobby](https://github.com/DavideZenobi/alphafoxweb/assets/55576514/173efffb-5e3d-4bcb-a29b-e68524e5bb67)
+![orgrimmar](https://github.com/DavideZenobi/alphafoxweb/assets/55576514/e0c61809-bed9-411f-84b3-3469ccc87c92)
+![suramar](https://github.com/DavideZenobi/alphafoxweb/assets/55576514/af1fa577-9de8-45e8-a724-c2994751fdd2)
